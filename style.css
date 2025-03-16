@@ -27,8 +27,9 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 350px;
   min-height: 100vh;
+  background-color: #FAF7F2;
 }
 
 h1 {
@@ -215,6 +216,140 @@ nav{
   background-color: rgb(0,0,0,.2);
   transition: all 0.3s ease-in-out;
 }
+.the-menu{
+  padding: 30px;
+  margin: 30px ;
+}
+.container{
+  text-align: center;
+  margin-bottom: 20px;
+  background-color:#FAF7F2;
+
+}
+.container p{
+  
+  color:red;
+  font-family:'Satisfy';
+  font-size: 30px;
+}
+.container h2{
+  font-size: 35px;
+  margin-top: 10px;;
+  color:black;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  background-color:#FAF7F2;
+  
+}
+.menu-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+  padding: 5px;
+  border: 2px solid ;
+  border-radius: 20%;
+  text-align: center;
+  background-color: white;
+  
+}
+.menu-items a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  
+  
+}
+.menu-items img{
+  width: 40px;
+  height: auto;
+  margin-right: 8px;
+  
+}
+.menu-items p{
+  color:black;
+
+}
+.menu-items:nth-child(2) {
+  background-color: black;
+  padding: 10px;
+}
+
+.menu-items:nth-child(2) p {
+  color: white; /* Yazıyı beyaz yap */
+}
+
+
+
+
+.favorite-food {
+  padding: 20px;
+  background-color: #f8f8f8;
+  
+}
+
+.fav {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  
+}
+
+.favorite {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow:0px 4px 10px rgba(0, 0, 0, 0.1) ;
+  text-align: center;
+  width: 200px;
+}
+
+.favorite a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.favorite img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.favorite h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.favorite p {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.rating {
+  color: #f39c12;
+}
+
+.price {
+  color: #27ae60;
+}
+
+
+
 
 
 .promotion{
@@ -261,8 +396,8 @@ nav{
 }
 
 .left-img h2 {
-  font-family: Quattrocento;
-  font-size: 68px;
+  font-family: 'Barlow';
+  font-size: 60px;
   color: white;
   line-height: 72px;
   vertical-align: middle;
@@ -273,7 +408,7 @@ nav{
 }
 
 .left-img p {
-  font-family: Barlow;
+  font-family: 'Barlow';
   color: white;
   font-size: 20px;
   line-height: 26.76px;
@@ -322,4 +457,109 @@ nav{
   border-radius: 50px;
   text-align: center;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.upper-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 30px;
+}
+
+.upper-left-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.footer-info {
+  width: 306px;
+}
+
+.teknolojik-foods {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-family:fantasy;
+}
+
+.footer-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-info li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.hot-menu ul {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  line-height: 2.5;
+}
+
+.hot-menu h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.upper-right-footer {
+  width: 347px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 35px;
+  margin-top: 0px;
+}
+
+.instagram-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.instagram-images img {
+  width: 30%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.lower-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid white;
+}
+
+.lower-footer p {
+  margin: 0;
+}
+
+.lower-footer a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
 

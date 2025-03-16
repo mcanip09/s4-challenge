@@ -536,6 +536,7 @@ footer {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+  padding: 0;
 }
 
 .lower-footer {
@@ -547,7 +548,7 @@ footer {
 }
 
 .lower-footer p {
-  margin: 0;
+  
 }
 
 .lower-footer a {
